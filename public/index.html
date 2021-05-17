@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Florian Selent</title>
+	<link rel=icon href=favicon.ico sizes="16x16" type="image/x-icon">
+	<meta name="robots" content="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<style>
+		html {
+
+			z-index: -10;
+
+			background-repeat: repeat;
+			background-position: center center;
+			background-size: cover;
+			background-attachment: fixed;
+			min-height: 100vh;
+		}
+
+		@media (max-width: 500px) {
+			html {
+				background-image: url(bgSmall.webp);
+			}
+		}
+
+		@media (min-width: 501px) and (max-width: 1280px) {
+			html {
+				background-image: url(bgSmallMedium.webp);
+			}
+		}
+
+		@media (min-width: 1281px) and (max-width: 2560px) {
+			html {
+				background-image: url(bgMedium.webp);
+			}
+		}
+
+		@media (min-width: 2561px) {
+			html {
+				background-image: url(bg.jpg);
+			}
+		}
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		p {
+			color: #fff;
+			font-family: "Ubuntu", sans-serif;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 21px;
+		}
+
+		h1 {
+			color: #fff;
+			font-family: "Ubuntu", sans-serif;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 24px;
+			margin-bottom: 21px;
+		}
+
+		a {
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			opacity: 0.5;
+			-transition: 0.09s linear;
+		}
+		
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			height: 100vh;
+		}
+
+		#about {
+			background-color:
+					rgba(239, 86, 75, 0.7);
+			border-top-right-radius: 25px;
+			border-bottom-right-radius: 25px;
+			position: relative;
+			margin-left: 0px;
+			margin-right: auto;
+		}
+
+		@media (max-width: 500px) {
+			#about {
+				width: 80%;
+				padding: 20px 25px 1px 35px;
+				margin: calc(100vh - 150px) auto 150px 0px;
+			}
+		}
+
+		@media (min-width: 501px) {
+			#about {
+				display: block;
+				width: 350px;
+				padding: 20px 25px 1px 35px;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+		}
+
+		/* Using the Ubuntu Font Family. License: http://font.ubuntu.com/ufl/ */
+		/* ubuntu-regular - latin */
+		@font-face {
+			font-family: 'Ubuntu';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url('../fonts/ubuntu-v15-latin-regular.eot');
+			/* IE9 Compat Modes */
+			src: local(''),
+				url('../fonts/ubuntu-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+				/* IE6-IE8 */
+				url('../fonts/ubuntu-v15-latin-regular.woff2') format('woff2'),
+				/* Super Modern Browsers */
+				url('../fonts/ubuntu-v15-latin-regular.woff') format('woff'),
+				/* Modern Browsers */
+				url('../fonts/ubuntu-v15-latin-regular.ttf') format('truetype'),
+				/* Safari, Android, iOS */
+				url('../fonts/ubuntu-v15-latin-regular.svg#Ubuntu') format('svg');
+			/* Legacy iOS */
+		}
+	</style>
+</head>
+
+<body>
+	<div id="about">
+		<p><b>Florian Selent.</b></p>
+
+		<h1>Hi,</h1>
+
+		<p>Ich bin Softwareentwickler und kenne mich in verschiedenen Programmiersprachen aus.
+			Ob in klassischer Java-Programmierung, stabiler COBOL-Entwicklung oder neulandigen Web-Technologien 😉</p>
+
+		<p>Wenn ich gerade nicht am Computer sitze, findest du mich eher selten auf dem Sofa,
+			sondern eher auf einer
+			Laufstrecke,
+			einer Fahrradstraße,
+			in der Boulderhalle, beim Tischtennis, beim Fitness, im Schwimmbad oder bei irgendeiner neuen Sportart 😄
+		</p>
+
+		<p>Du möchtest mehr über mich wissen? Schreib mir einfach per <a href="mailto:hallo@selent.me">E-Mail</a></p>
+
+	</div>
+</body>
+
+</html>
