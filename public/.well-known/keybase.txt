@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/flohtux
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://florian.selent.me
+  * I am flohtux (https://keybase.io/flohtux) on keybase.
+  * I have a public key ASDkZnOMpJBYlNp-4fKnlGs6tlCQDeBLBiVoYG4t5OGVvAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012070b5a06a39150be4d58f0a341f5dc096c104bb2e084c0f5503d3a846591182360a",
+      "host": "keybase.io",
+      "kid": "0120e466738ca4905894da7ee1f2a7946b3ab650900de04b062568606e2de4e195bc0a",
+      "uid": "4d1fc7e75c267ff2d792d78039c6f419",
+      "username": "flohtux"
+    },
+    "merkle_root": {
+      "ctime": 1643121384,
+      "hash": "e7c166397f29d8d15e05384096134c457393a202316676211c4689784b1d57bb87f55a84cd10799fe3178e4b32b16cafd1bfb625a71acc7a028f4adad1bd58ba",
+      "hash_meta": "667ba630538b2861c166c99e79cd6bb8c94c912b0eb014640c26d80ef648eed4",
+      "seqno": 21716996
+    },
+    "service": {
+      "entropy": "KkCIyetdg/xIsmXupmfPZcNt",
+      "hostname": "florian.selent.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1643121421,
+  "expire_in": 504576000,
+  "prev": "1de6014b441e6d3e0b8cecf6c453ba65388528ad4e2f75174ca1879be1534c5f",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5GZzjKSQWJTafuHyp5RrOrZQkA3gSwYlaGBuLeThlbwKp3BheWxvYWTESpcCDMQgHeYBS0QebT4LjOz2xFO6ZTiFKK1OL3UXTKGHm+FTTF/EIJ9h74X4BJJe9e7rPLopds5lk0My3HCiMV53B4Q5Bex1AgHCo3NpZ8RA9AIGhfZZNRN5+11PeqcwroK8snzp5Xd4Ms2PiX4J2/L8aVwhHiUUOTMba3P2M+N6GgFHwIe5qXkDdvnn9CR2BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPbNuqEdErHJ0jHJgdlptSdIt4fT4PxXlhKb0VYyoMSxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/flohtux
+
+==================================================================
